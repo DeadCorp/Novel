@@ -113,6 +113,27 @@ MonoBehaviour:
     - name: Blur
       pathPrefix: Spawn
       guid: e466d9326b30a4b49a3dad428b4d9968
+    - name: Duck
+      pathPrefix: Spawn
+      guid: 8809c80c2876568468c81af5ba521879
+    - name: WrongItem1
+      pathPrefix: Spawn
+      guid: c9799efbcc596734d95c1e9ace249502
+    - name: WrongItem2
+      pathPrefix: Spawn
+      guid: e4eca774148133a4fb610b75f8e7098c
+    - name: WrongItem3
+      pathPrefix: Spawn
+      guid: 94f73af04488c464ebb48830b68f92f8
+    - name: Loc1
+      pathPrefix: Spawn
+      guid: f0c77db66a5fc8d4284f58b9e819c72f
+    - name: Loc2
+      pathPrefix: Spawn
+      guid: 3e55e72a8ee313e4bb8e63ef8ccc21ec
+    - name: Loc3
+      pathPrefix: Spawn
+      guid: 8f0b789481ef0924bba0005bd0ec64ac
   - Id: UI
     Resources:
     - name: ClickThroughPanel
@@ -166,3 +187,53 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: GameStart
+      pathPrefix: Scripts
+      guid: 76cc94512601d64448e345eb548c85ca
+    - name: Chapter1
+      pathPrefix: Scripts
+      guid: 27805eb6526db3d429af76f035052f56
+    - name: Chapter2
+      pathPrefix: Scripts
+      guid: 74fa8328b7eaf2a4f873248d9803e2bf
+    - name: Chapter3
+      pathPrefix: Scripts
+      guid: 08f6f38ae9101c540a3ede9a64e6f077
+    - name: Chapter4
+      pathPrefix: Scripts
+      guid: 7516cddedd2160d4897ed37e2d3bdcb5
+    - name: Chapter5
+      pathPrefix: Scripts
+      guid: 72e3f0da6dcb9ec42ab6c948e27cf934
+    - name: Map
+      pathPrefix: Scripts
+      guid: db6e385eb394d54409a60c4ca8bf53e8
+    - name: Loc1
+      pathPrefix: Scripts
+      guid: 18fae1e67c8869244af87ee6fe2cb566
+    - name: Loc2
+      pathPrefix: Scripts
+      guid: ae4e13678be0056428b5d7534f47bf6e
+    - name: Loc3
+      pathPrefix: Scripts
+      guid: 597f86c89311e5b4394ef3ab2b5fcbc1
+  - Id: Backgrounds/8e0a9aa9-a44d-40ae-b830-785dba901494
+    Resources:
+    - name: Intro
+      pathPrefix: Backgrounds/MainBackground
+      guid: dc68765a7daf4034494c49612d6a704c
+    - name: Loc1
+      pathPrefix: Backgrounds/MainBackground
+      guid: f7cc00a4bfc4abf4eaa57393773a4797
+    - name: Loc2
+      pathPrefix: Backgrounds/MainBackground
+      guid: 0706397dcddd417428712b7584f2cbd3
+    - name: Loc3
+      pathPrefix: Backgrounds/MainBackground
+      guid: 28413ae1a97be034eb8813b75282585f
+  - Id: Characters/0fd6fb94-5662-442a-b11f-b041928725a7
+    Resources: []
+  - Id: Characters/b5b34885-cb4e-40f3-84bb-599172ec94b0
+    Resources: []

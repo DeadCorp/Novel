@@ -1,0 +1,13 @@
+
+@back Intro time:0
+Okey, you already arrive.
+Lets begin your story!
+@input name summary:"Who are you?"
+@stop
+So you a <color=green>{name}</color>
+
+
+
+@hidePrinter 
+@set "game_chapter = 1"
+@goto Chapter1 wait:true

@@ -1,0 +1,14 @@
+@back Loc2.CircleReveal time:0.65
+{name}: Hey, Josh, a you here?
+
+; add sfx echo
+@wait 1.5
+{name}: Hmmm... Is no one here. I must visit Oliver, maybe Josh will be there.
+
+@set "game_chapter = 5"
+@set "loc1_open = true"
+@set "loc2_open = false"
+; turn loc 1 open again
+@goto Map
+@stop
+@goto Chapter5

@@ -1,0 +1,14 @@
+# FirstDialog
+@back Loc1.CircleReveal time:0.65
+
+
+o: OH-OH-OH, My name is Oliver, here is your quest
+o: bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+o: Go and talk with Josh
+
+
+@set "game_chapter = 2"
+@set "loc2_open = true"
+@goto Map
+@stop
+@goto Chapter2 wait:true

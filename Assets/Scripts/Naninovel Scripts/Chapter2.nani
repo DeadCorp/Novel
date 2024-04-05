@@ -1,0 +1,37 @@
+
+@back Loc2.CircleReveal time:0.65
+
+j: Who is there
+
+{name}: Hey its {name}
+j: What a you want
+
+{name}: Oliver send me to you...
+j: O, Oliver, i know Oliver...
+
+j: Wanna talk with me - you must play in Gwe**(<i>censored</i>) with me first!
+; here launch mini game
+@if win
+j: O no, no, no. I am lost.
+@else
+j: Ha-ha, am is the best in this game
+@endIf
+j: So why you here?
+{name}: Oliver send me to you, i must take his small yellow duck!
+
+
+
+j: Any way i dont have it. Lost it when return to home last week.
+
+{name}: Wheare you was in that day?
+
+j: I went bay some ammunition on north, you can try find it there.
+
+j: Return it to me. I will be very grateful.
+
+@set "game_chapter = 3"
+@set "loc3_open = true"
+@goto Map
+@stop
+
+@goto Chapter3 wait:true
