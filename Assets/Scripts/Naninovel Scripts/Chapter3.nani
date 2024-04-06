@@ -1,4 +1,5 @@
 @back Loc3.CircleReveal time:0.65
+
 # Search
 @hidePrinter 
 @choice  button:Items/Duck pos:-500,300 handler:ButtonArea goto:.Duck
@@ -8,15 +9,17 @@
 @stop
 
 # Duck
-{name}: Yee, here it is! Time return to Josh.
+p: Yee, here it is! Time return to Josh.
 
 @set "game_chapter = 4"
 @set "loc3_open = false"
 @set "loc1_open = false"
-; disable loc 1  - by task we need go in loc 2 after find item - if we go in loc 1 - we already have item and can give it to npc
-@goto Map
-# WrongItem
 
-{name}: No, its not a duck...
+; disable loc 1  - by task we need go in loc 2 after find item - if we go in loc 1 - we already have item and can give it to npc
+
+@goto Map
+
+# WrongItem
+p: No, its not a duck...
 
 @goto .Search

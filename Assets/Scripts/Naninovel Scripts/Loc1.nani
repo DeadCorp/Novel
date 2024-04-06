@@ -18,7 +18,7 @@ o: Go away, i am busy for you!
 @else
 # RegularDialog
 o: Ho i hope you give me what i want?
-{name}: Not yet.
+{p}: Not yet.
 @goto Map
 
 @endIf

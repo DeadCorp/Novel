@@ -1,5 +1,3 @@
-
-
 @hidePrinter 
 @choice  button:Map/Loc1 pos:-500,300 handler:ButtonArea goto:Loc1
 @choice  button:Map/Loc2 pos:700,125 handler:ButtonArea goto:Loc2

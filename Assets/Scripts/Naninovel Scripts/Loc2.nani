@@ -1,33 +1,21 @@
-
 @if "game_chapter == 2"
-
 @goto Chapter2
 
 @elseIf "game_chapter == 4"
 @goto Chapter4
+
 @elseIf "game_chapter == -1"
-
 # AfterEnd
-
 @if "item_owner == \"j\""
-
 j: Hey, how are you bro!).
-
 @else
-
 j: Dont talk to me!
-
 @endIf
-
 @goto Map
+
 @else
-
 # RegularDialog
-
 j: Did you find it?
-
-{name}: Not yet.
-
+p: Not yet.
 @goto Map
-
 @endIf
