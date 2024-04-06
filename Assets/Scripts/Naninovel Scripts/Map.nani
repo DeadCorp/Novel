@@ -1,3 +1,8 @@
+@if game_chapter==7
+@hideUI QuestLogUI
+@wait 1
+@set "game_chapter = -1"
+@endIf
 @hidePrinter 
 @choice  button:Map/Loc1 pos:-500,300 handler:ButtonArea goto:Loc1
 @choice  button:Map/Loc2 pos:700,125 handler:ButtonArea goto:Loc2

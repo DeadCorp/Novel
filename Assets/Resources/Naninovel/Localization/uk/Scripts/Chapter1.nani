@@ -1,0 +1,13 @@
+; English <en> to Ukrainian <uk> localization document for `Chapter1` naninovel script
+
+# 60727af3
+; o: OH-OH-OH, My name is {GetName("o")}, here is your quest
+o: Ой-ой-ой, мене звуть {GetName("o")}, ось ваш квест
+
+# 2d43edc7
+; o: bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+o: бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла.
+
+# 7c26c97f
+; o: Go and talk with Josh
+o: Поговоріть з Джошем

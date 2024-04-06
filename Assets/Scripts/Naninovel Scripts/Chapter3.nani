@@ -13,9 +13,7 @@ p: Yee, here it is! Time return to Josh.
 
 @set "game_chapter = 4"
 @set "loc3_open = false"
-@set "loc1_open = false"
 
-; disable loc 1  - by task we need go in loc 2 after find item - if we go in loc 1 - we already have item and can give it to npc
 
 @goto Map
 

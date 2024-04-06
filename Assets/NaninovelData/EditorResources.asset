@@ -187,6 +187,12 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: MiniGameMemoryUI
+      pathPrefix: UI
+      guid: d2462a9ecf6c858478415c9ee9109ac6
+    - name: QuestLogUI
+      pathPrefix: UI
+      guid: fffd78f2b1bd59c4d84612b107adc059
   - Id: Scripts
     Resources:
     - name: GameStart

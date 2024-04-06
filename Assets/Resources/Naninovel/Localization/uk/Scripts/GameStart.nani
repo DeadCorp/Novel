@@ -1,0 +1,17 @@
+; English <en> to Ukrainian <uk> localization document for `GameStart` naninovel script
+
+# db12d4fb
+; Okey, you already arrive.
+Гаразд, ти вже тут.
+
+# 85331c17
+; Lets begin your story!
+Давайте почнемо твою історію!
+
+# c454a2ef
+; @input name summary:"Who are you?"
+@input name summary:"Хто ти?"
+
+# e5cc7002
+; So you a <color=green>{GetName("p")}</color>
+Отже, ти <color=green>{GetName("p")}</color>

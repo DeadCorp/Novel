@@ -5,9 +5,10 @@ Lets begin your story!
 @input name summary:"Who are you?"
 @stop
 
-So you a <color=green>{name}</color>
+So you a <color=green>{GetName("p")}</color>
 
 @hidePrinter 
+@showUI QuestLogUI
 @set "game_chapter = 1"
 
 @goto Chapter1 wait:true

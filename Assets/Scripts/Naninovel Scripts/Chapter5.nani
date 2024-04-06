@@ -3,32 +3,35 @@
 o: How can you lost my duck, Josh?
 j: Chill, even if am not lost it, i never will return it to you.
 p: Hey there, guess what i get.
-j: No way, you made that. Nice  work {name}, now give it to me!.
-o: Hey {name}, remember who is the owner, return it to me now!.
+j: No way, you made that. Nice  work {GetName("p")}, now give it to me!.
+o: Hey {GetName("p")}, remember who is the owner, return it to me now!.
 
 @choice "Give duck to Oliver" goto:.o_item set:item_owner="o"
 @choice "Give duck to Josh" goto:.j_item set:item_owner="j"
 @choice "Take duck by you self" goto:.p_item set:item_owner="p"
 
-@set "game_chapter = -1"
+@set "game_chapter = 6"
 @set "loc2_open = true"
 
 @stop
 
 # o_item
-o: Great work {name}, you a nice man.
+o: Great work {GetName("p")}, you a nice man.
 j: You make a bad choice.
 
+@set "game_chapter = 7"
 @goto Map
 
 # j_item
 j: Yeee, nice to hear it, dude.
 o: I made a mistake by choose you.
 
+@set "game_chapter = 7"
 @goto Map
 
 # p_item
 o: What does that mean, are you out of your mind?
 j: You should have given it to me, what's wrong with you?
 
+@set "game_chapter = 7"
 @goto Map

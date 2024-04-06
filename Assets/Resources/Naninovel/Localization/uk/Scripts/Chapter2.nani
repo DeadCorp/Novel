@@ -1,0 +1,57 @@
+; English <en> to Ukrainian <uk> localization document for `Chapter2` naninovel script
+
+# d101af40
+; j: Who is there
+j: Хто там?
+
+# 33d7fb9d
+; p: Hey its {GetName("p")}
+p: Привіт, це {GetName("p")}.
+
+# 1f39ffc6
+; j: What a you want
+j: Чого ти хочеш?
+
+# fb0fa0a1
+; p: Oliver send me to you...
+p: Олівер послав мене до тебе...
+
+# c2d3e66f
+; j: O, Oliver, i know Oliver...
+j: Олівер, я знаю Олівера...
+
+# b5f64c73
+; j: Wanna talk with me - you must play in Gwe**(<i>censored</i>) with me first!
+j: Хочеш поговорити зі мною - спочатку зіграй зі мною в Гвин**(<i>censored</i>)!
+
+# 1445443c
+; j: O no, no, no. I am lost.
+j: О, ні, ні. Я програю.
+
+# b33aba0
+; j: Ha-ha, am is the best in this game
+j: Ха-ха, я найкращий у цій грі
+
+# eb538c6a
+; j: So why you here?
+j: То чому ти тут?
+
+# b66704ce
+; p: Oliver send me to you, i must take his small yellow duck!
+p: Олівер послав мене до вас, я маю забрати його маленьку жовту качку!
+
+# 5e657832
+; j: Any way i dont have it. Lost it when return to home last week.
+j: У всякому разі, у мене його немає. Загубив, коли повернувся додому минулого тижня.
+
+# 74bc5f7d
+; p: Wheare you was in that day?
+p: Де ви були в той день?
+
+# 1603e962
+; j: I went bay some ammunition on north, you can try find it there.
+j: Я поїхав з боєприпасами на північ, можете спробувати знайти їх там.
+
+# b436e8cc
+; j: Return it to me. I will be very grateful.
+j: Поверни його мені. Я буду дуже вдячний.

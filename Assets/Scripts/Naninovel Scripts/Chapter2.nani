@@ -1,13 +1,16 @@
 @back Loc2.CircleReveal time:0.65
 
 j: Who is there
-p: Hey its {name}
+p: Hey its {GetName("p")}
 j: What a you want
 p: Oliver send me to you...
 j: O, Oliver, i know Oliver...
 j: Wanna talk with me - you must play in Gwe**(<i>censored</i>) with me first!
 
 ; here launch mini game
+@purgeRollback
+@hidePrinter
+@memory_minigame wait:true
 
 @if win
 j: O no, no, no. I am lost.
