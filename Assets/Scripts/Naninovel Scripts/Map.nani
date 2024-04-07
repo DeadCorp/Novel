@@ -1,3 +1,8 @@
+
+@clearChoice ButtonArea
+@hideChars time:0
+@hideUI MapButtonUI time:0
+@showUI QuestLogUI if:game_chapter!=-1
 @if game_chapter==7
 @hideUI QuestLogUI
 @wait 1

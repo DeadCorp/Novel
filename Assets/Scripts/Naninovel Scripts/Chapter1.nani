@@ -8,4 +8,6 @@ o: Go and talk with Josh
 @set "game_chapter = 2"
 @set "loc2_open = true"
 
-@goto Map
+
+@showUI MapButtonUI
+@stop

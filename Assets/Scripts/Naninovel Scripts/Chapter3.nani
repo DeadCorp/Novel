@@ -1,5 +1,6 @@
 @back Loc3.CircleReveal time:0.65
 
+@showUI MapButtonUI
 # Search
 @hidePrinter 
 @choice  button:Items/Duck pos:-500,300 handler:ButtonArea goto:.Duck
@@ -15,7 +16,7 @@ p: Yee, here it is! Time return to Josh.
 @set "loc3_open = false"
 
 
-@goto Map
+@stop
 
 # WrongItem
 p: No, its not a duck...

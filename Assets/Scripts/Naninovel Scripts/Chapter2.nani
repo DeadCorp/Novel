@@ -9,7 +9,7 @@ j: Wanna talk with me - you must play in Gwe**(<i>censored</i>) with me first!
 
 ; here launch mini game
 @purgeRollback
-@hidePrinter
+@hidePrinter 
 @memory_minigame wait:true
 
 @if win
@@ -28,4 +28,5 @@ j: Return it to me. I will be very grateful.
 @set "game_chapter = 3"
 @set "loc3_open = true"
 
-@goto Map
+@showUI MapButtonUI
+@stop

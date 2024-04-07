@@ -3,19 +3,30 @@
 
 @elseIf "game_chapter == 4"
 @goto Chapter4
+@elseIf "game_chapter == 5"
 
+@goto .EmptyLocation
 @elseIf "game_chapter == -1"
 # AfterEnd
+@showUI MapButtonUI
 @if "item_owner == \"j\""
 j: Hey, how are you bro!).
 @else
 j: Dont talk to me!
 @endIf
-@goto Map
+@stop
 
 @else
 # RegularDialog
+@showUI MapButtonUI
 j: Did you find it?
 p: Not yet.
-@goto Map
+@stop
 @endIf
+# EmptyLocation
+
+@showUI MapButtonUI
+
+p: Is noone here!
+
+@stop

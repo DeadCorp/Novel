@@ -1,0 +1,11 @@
+; English <en> to Ukrainian <uk> localization document for `CustomUI` managed text document
+
+Map: Карта
+QuestLogDropdown.QuestLog1: _
+QuestLogDropdown.QuestLog2: Поговорити з Олівером
+QuestLogDropdown.QuestLog3: Поговорити з Джошом
+QuestLogDropdown.QuestLog4: Піти на північ і знайти качку
+QuestLogDropdown.QuestLog5: Повернутись до Джоша
+QuestLogDropdown.QuestLog6: Піти до Олівера
+QuestLogDropdown.QuestLog7: Вирішити хто забере предмет
+QuestLogDropdown.QuestLog8: Роботу зроблено

@@ -1,5 +1,17 @@
 ; English <en> to Ukrainian <uk> localization document for `Chapter3` naninovel script
 
+# 99e02880
+; @choice  button:Items/Duck pos:-500,300 handler:ButtonArea goto:.Duck
+
+# 285efb5f
+; @choice  button:Items/WrongItem1 pos:700,125 handler:ButtonArea goto:.WrongItem
+
+# 1f9300c
+; @choice  button:Items/WrongItem2 pos:-200,-150 handler:ButtonArea goto:.WrongItem
+
+# 8903cd42
+; @choice  button:Items/WrongItem3 pos:-50,250 handler:ButtonArea goto:.WrongItem
+
 # fa30297e
 ; p: Yee, here it is! Time return to Josh.
 p: Так, ось воно! Час повертається до Джоша.

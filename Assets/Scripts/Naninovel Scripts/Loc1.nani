@@ -8,20 +8,25 @@
 @goto .EmptyLocation
 @elseIf "game_chapter == -1"
 # AfterEnd
+@showUI MapButtonUI
 @if "item_owner == \"o\""
 o: I hope you feel well!.
 @else
 o: Go away, i am busy for you!
 @endIf
-@goto Map
 
+@stop
 @else
 # RegularDialog
+@showUI MapButtonUI
 o: Ho i hope you give me what i want?
 p: Not yet.
-@goto Map
+@stop
 @endIf
 
 # EmptyLocation
+@showUI MapButtonUI
 p: Is noone here!
-@goto Map
+
+
+@stop

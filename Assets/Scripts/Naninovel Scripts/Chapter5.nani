@@ -6,11 +6,11 @@ p: Hey there, guess what i get.
 j: No way, you made that. Nice  work {GetName("p")}, now give it to me!.
 o: Hey {GetName("p")}, remember who is the owner, return it to me now!.
 
+@set "game_chapter = 6"
 @choice "Give duck to Oliver" goto:.o_item set:item_owner="o"
 @choice "Give duck to Josh" goto:.j_item set:item_owner="j"
 @choice "Take duck by you self" goto:.p_item set:item_owner="p"
 
-@set "game_chapter = 6"
 @set "loc2_open = true"
 
 @stop

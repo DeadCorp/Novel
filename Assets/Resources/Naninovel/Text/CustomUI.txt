@@ -1,0 +1,9 @@
+Map: Map
+QuestLogDropdown.QuestLog1: _
+QuestLogDropdown.QuestLog2: Talk with Oliver
+QuestLogDropdown.QuestLog3: Talk with Josh
+QuestLogDropdown.QuestLog4: Go on north and find DUCK
+QuestLogDropdown.QuestLog5: Return to Josh
+QuestLogDropdown.QuestLog6: Go to Oliver
+QuestLogDropdown.QuestLog7: Decide who must own item
+QuestLogDropdown.QuestLog8: Job is Done

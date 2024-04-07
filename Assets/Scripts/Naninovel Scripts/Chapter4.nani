@@ -9,7 +9,8 @@ p: Hey, Josh, a you here?
 p: Hmmm... Is no one here. I must visit Oliver, maybe Josh will be there.
 
 @set "game_chapter = 5"
-@set "loc2_open = false"
 
 
-@goto Map
+@showUI MapButtonUI
+
+@stop
