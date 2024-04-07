@@ -371,10 +371,6 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
-        &lt;Path&gt;NewScript&lt;/Path&gt;
-        &lt;Type&gt;Scripts&lt;/Type&gt;
-      &lt;/Resource&gt;
-      &lt;Resource&gt;
         &lt;Path&gt;Intro&lt;/Path&gt;
         &lt;Type&gt;Backgrounds/MainBackground&lt;/Type&gt;
       &lt;/Resource&gt;
@@ -400,7 +396,6 @@
       &lt;string&gt;loc2_open&lt;/string&gt;
       &lt;string&gt;loc1_open&lt;/string&gt;
       &lt;string&gt;game_chapter&lt;/string&gt;
-      &lt;string&gt;quest_label&lt;/string&gt;
     &lt;/Variables&gt;
     &lt;Functions /&gt;
   &lt;/Metadata&gt;
