@@ -8,29 +8,29 @@ o: Як ти міг загубити мою качку, Джоше?
 ; j: Chill, even if am not lost it, i never will return it to you.
 j: Заспокойся, навіть якщо я не загубив його, я ніколи не поверну його тобі.
 
-# 9de89c59
-; p: Hey there, guess what i get.
-p: Привіт, вгадайте, що в мене є.
+# f56e7b84
+; p.Smile: Hey there, guess what i get.
+p.Smile: Привіт, вгадайте, що я дістав.
 
-# f850eec3
-; j: No way, you made that. Nice  work {GetName("p")}, now give it to me!.
-j: Не може бути, у тебе вийшло. Молодець {GetName("p")}, а тепер віддай його мені!
+# ef090f1f
+; j.Smile: No way, you made that. Nice  work {GetName("p")}, now give it to me!.
+j.Smile: Не може бути, у тебе вийшло. Молодець {GetName("p")}, а тепер віддай його мені!
 
-# 171284f0
-; o: Hey {GetName("p")}, remember who is the owner, return it to me now!.
-o: Гей, {GetName("p")}, згадай, хто тут власник, поверни мені його негайно!
+# d9e09b13
+; o.Smile: Hey {GetName("p")}, remember who is the owner, return it to me now!.
+o.Smile: Гей, {GetName("p")}, згадай, хто тут власник, поверни мені його негайно!
 
-# 540b1973
-; @choice "Give duck to Oliver" goto:.o_item set:item_owner="o"
-@choice "Віддай качку Оліверу" goto:.o_item set:item_owner="o"
+# a0bed0f2
+; @choice "Give duck to Oliver" goto:.o_item set:item_owner="o" do:"@purgeRollback"
+@choice " Віддати качку Оліверу" goto:.o_item set:item_owner="o" do:"@purgeRollback"
 
-# b9172a59
-; @choice "Give duck to Josh" goto:.j_item set:item_owner="j"
-@choice "Віддай качку Джошу" goto:.j_item set:item_owner="j"
+# f7edb4c
+; @choice "Give duck to Josh" goto:.j_item set:item_owner="j" do:"@purgeRollback"
+@choice " Віддати качку Джошу" goto:.j_item set:item_owner="j" do:"@purgeRollback"
 
-# df41c582
-; @choice "Take duck by you self" goto:.p_item set:item_owner="p"
-@choice "Візьми качку сам" goto:.p_item set:item_owner="p"
+# b1b6b898
+; @choice "Take duck by you self" goto:.p_item set:item_owner="p" do:"@purgeRollback"
+@choice " Взяти качку собі" goto:.p_item set:item_owner="p" do:"@purgeRollback"
 
 # bee5c298
 ; o: Great work {GetName("p")}, you a nice man.
@@ -48,10 +48,10 @@ j: Так, радий це чути, чувак.
 ; o: I made a mistake by choose you.
 o: Я зробив помилку, обравши тебе.
 
-# 44531841
-; o: What does that mean, are you out of your mind?
-o: Що це означає, ви з'їхали з глузду?
+# c372288d
+; o.Stupid: What does that mean, are you out of your mind?
+o.Stupid: Що це означає, ви з'їхали з глузду?
 
-# 2f2060b1
-; j: You should have given it to me, what's wrong with you?
-j: Ти повинен був віддати його мені, що з тобою не так?
+# adfe2f1d
+; j.Stupid: You should have given it to me, what's wrong with you?
+j.Stupid: Ти повинен був віддати її мені, що з тобою не так?

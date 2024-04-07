@@ -1,7 +1,9 @@
 @back Loc3.CircleReveal time:0.65
 
 @showUI MapButtonUI
+
 # Search
+@hideChars
 @hidePrinter 
 @choice  button:Items/Duck pos:-500,300 handler:ButtonArea goto:.Duck
 @choice  button:Items/WrongItem1 pos:700,125 handler:ButtonArea goto:.WrongItem
@@ -10,15 +12,18 @@
 @stop
 
 # Duck
+@char p look:right pos:50,7.5
+
 p: Yee, here it is! Time return to Josh.
 
 @set "game_chapter = 4"
 @set "loc3_open = false"
-
-
 @stop
 
 # WrongItem
+@char p look:right pos:50,7.5
+@spawn ShakeCharacter params:p,2
+
 p: No, its not a duck...
 
 @goto .Search

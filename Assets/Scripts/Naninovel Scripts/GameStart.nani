@@ -2,17 +2,20 @@
 
 Okey, you already arrive.
 Lets begin your story!
+
 @input name summary:"Who are you?"
 @stop
 
-@char p look:left pos:35.25 time:1.5 wait:true
+@char p look:left pos:-50,7.5
+@char p look:left pos:50,7.5 time:1.5 wait:true
+
 So you a <color=green>{GetName("p")}</color>
 
 @set "game_chapter = 1"
-
-
 @showUI MapButtonUI
 @showUI QuestLogUI
+
 Nice
+
 @hidePrinter 
 @stop

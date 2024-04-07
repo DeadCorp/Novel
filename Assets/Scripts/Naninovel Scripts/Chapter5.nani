@@ -1,37 +1,58 @@
 @back Loc1.CircleReveal time:0.65
 
+@char o look:left pos:-35,7.5
+@char o look:left pos:35,7.5
+@char j look:right pos:135,7.5
+@char j look:right pos:65,7.5
+
 o: How can you lost my duck, Josh?
 j: Chill, even if am not lost it, i never will return it to you.
-p: Hey there, guess what i get.
-j: No way, you made that. Nice  work {GetName("p")}, now give it to me!.
-o: Hey {GetName("p")}, remember who is the owner, return it to me now!.
+
+@char p look:left pos:-35,7.5
+@char p pos:35,7.5
+@char o look:right pos:55,7.5 wait:false
+@char j look:right pos:75,7.5 wait:false
+
+p.Smile: Hey there, guess what i get.
+j.Smile: No way, you made that. Nice  work {GetName("p")}, now give it to me!.
+o.Smile: Hey {GetName("p")}, remember who is the owner, return it to me now!.
 
 @set "game_chapter = 6"
-@choice "Give duck to Oliver" goto:.o_item set:item_owner="o"
-@choice "Give duck to Josh" goto:.j_item set:item_owner="j"
-@choice "Take duck by you self" goto:.p_item set:item_owner="p"
-
 @set "loc2_open = true"
 
+@choice "Give duck to Oliver" goto:.o_item set:item_owner="o" do:@purgeRollback
+@choice "Give duck to Josh" goto:.j_item set:item_owner="j" do:@purgeRollback
+@choice "Take duck by you self" goto:.p_item set:item_owner="p" do:@purgeRollback
 @stop
 
 # o_item
+@char j.Stupid
+@spawn ShakeCharacter params:j
+
+@set "game_chapter = 7"
 o: Great work {GetName("p")}, you a nice man.
 j: You make a bad choice.
 
-@set "game_chapter = 7"
 @goto Map
 
 # j_item
+@char o.Stupid
+@spawn ShakeCharacter params:o
+
+@set "game_chapter = 7"
 j: Yeee, nice to hear it, dude.
 o: I made a mistake by choose you.
 
-@set "game_chapter = 7"
 @goto Map
 
 # p_item
-o: What does that mean, are you out of your mind?
-j: You should have given it to me, what's wrong with you?
+@char o.Stupid
+@char j.Stupid
+@spawn ShakeCharacter params:o
+@spawn ShakeCharacter params:j
 
 @set "game_chapter = 7"
+o.Stupid: What does that mean, are you out of your mind?
+j.Stupid: You should have given it to me, what's wrong with you?
+
 @goto Map

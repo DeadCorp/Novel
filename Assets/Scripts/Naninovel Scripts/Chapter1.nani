@@ -1,13 +1,17 @@
 # FirstDialog
 @back Loc1.CircleReveal time:0.65
 
-o: OH-OH-OH, My name is {GetName("o")}, here is your quest
-o: bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+@char p look:left pos:-30,7.5
+@char p look:left pos:35,7.5
+@char o look:right pos:130,7.5
+@char o look:right pos:65,7.5
+
+o.Smile: OH-OH-OH, My name is {GetName("o")}, here is your quest
+o.Default: I let Josh use my rubber duck for a while, and I need you to bring it back.
 o: Go and talk with Josh
 
 @set "game_chapter = 2"
 @set "loc2_open = true"
-
-
 @showUI MapButtonUI
+
 @stop

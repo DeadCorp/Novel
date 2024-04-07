@@ -1,12 +1,12 @@
 ; English <en> to Ukrainian <uk> localization document for `Chapter1` naninovel script
 
-# 60727af3
-; o: OH-OH-OH, My name is {GetName("o")}, here is your quest
-o: Ой-ой-ой, мене звуть {GetName("o")}, ось ваш квест
+# 46cdbacb
+; o.Smile: OH-OH-OH, My name is {GetName("o")}, here is your quest
+o.Smile: Ой-ой-ой, мене звуть {GetName("o")}, ось ваш квест
 
-# 2d43edc7
-; o: bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-o: бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла-бла.
+# 27d888cf
+; o.Default: I let Josh use my rubber duck for a while, and I need you to bring it back.
+o.Default: Я дав Джошу покористуватися моєю гумовою качкою, і мені потрібно, щоб ти повернув її назад.
 
 # 7c26c97f
 ; o: Go and talk with Josh

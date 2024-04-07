@@ -1,5 +1,10 @@
 @back Loc2.CircleReveal time:0.65
 
+@char j look:right pos:135,7.5
+@char j look:right pos:65,7.5
+@char p look:left pos:-35,7.5
+@char p look:left pos:35,7.5
+
 j: Who is there
 p: Hey its {GetName("p")}
 j: What a you want
@@ -7,18 +12,17 @@ p: Oliver send me to you...
 j: O, Oliver, i know Oliver...
 j: Wanna talk with me - you must play in Gwe**(<i>censored</i>) with me first!
 
-; here launch mini game
 @purgeRollback
 @hidePrinter 
 @memory_minigame wait:true
 
 @if win
-j: O no, no, no. I am lost.
+j.Stupid: O no, no, no. I am lost.
 @else
-j: Ha-ha, am is the best in this game
+j.Smile: Ha-ha, am is the best in this game
 @endIf
 
-j: So why you here?
+j.Default: So why you here?
 p: Oliver send me to you, i must take his small yellow duck!
 j: Any way i dont have it. Lost it when return to home last week.
 p: Wheare you was in that day?
@@ -27,6 +31,6 @@ j: Return it to me. I will be very grateful.
 
 @set "game_chapter = 3"
 @set "loc3_open = true"
-
 @showUI MapButtonUI
+
 @stop

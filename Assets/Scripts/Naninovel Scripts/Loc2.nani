@@ -3,30 +3,50 @@
 
 @elseIf "game_chapter == 4"
 @goto Chapter4
+
 @elseIf "game_chapter == 5"
-
 @goto .EmptyLocation
+
 @elseIf "game_chapter == -1"
-# AfterEnd
-@showUI MapButtonUI
-@if "item_owner == \"j\""
-j: Hey, how are you bro!).
-@else
-j: Dont talk to me!
-@endIf
-@stop
+@goto .AfterEnd
 
 @else
-# RegularDialog
-@showUI MapButtonUI
-j: Did you find it?
-p: Not yet.
-@stop
+@goto .RegularDialog
+
 @endIf
+
 # EmptyLocation
-
 @showUI MapButtonUI
+@char p look:right pos:50,7.5
+@spawn ShakeCharacter params:p,1
 
 p: Is noone here!
 
+@stop
+
+# AfterEnd
+@char j.Default look:right pos:135,7.5
+@char j look:right pos:65,7.5
+@char p look:left pos:-35,7.5
+@char p look:left pos:35,7.5
+
+@if "item_owner == \"j\""
+j.Smile: Hey, how are you bro!).
+@else
+j.Stupid: Dont talk to me!
+@endIf
+
+@showUI MapButtonUI
+@stop
+
+# RegularDialog
+@char j.Default look:right pos:135,7.5
+@char j look:right pos:65,7.5
+@char p look:left pos:-35,7.5
+@char p look:left pos:35,7.5
+
+j: Did you find it?
+p: Not yet.
+
+@showUI MapButtonUI
 @stop

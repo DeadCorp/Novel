@@ -151,7 +151,7 @@ MonoBehaviour:
 
     @goto Map'
   playOnAwake: 0
-  disableWaitInput: 0
+  disableWaitInput: 1
 --- !u!1 &2300379472670331966
 GameObject:
   m_ObjectHideFlags: 0

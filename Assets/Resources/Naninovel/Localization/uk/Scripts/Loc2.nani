@@ -1,12 +1,16 @@
 ; English <en> to Ukrainian <uk> localization document for `Loc2` naninovel script
 
-# 24ed93bb
-; j: Hey, how are you bro!).
-j: Привіт, як справи, брате!).
+# eede000f
+; p: Is noone here!
+p: Тут нікого немає!
 
-# 2a0e7e91
-; j: Dont talk to me!
-j: Не розмовляй зі мною!
+# 87431856
+; j.Smile: Hey, how are you bro!).
+j.Smile: Привіт, як справи, бро!).
+
+# f48ea4a5
+; j.Stupid: Dont talk to me!
+j.Stupid: Не розмовляй зі мною!
 
 # 2199d937
 ; j: Did you find it?
@@ -15,7 +19,3 @@ j: Ти знайшов її?
 # d0b858c2
 ; p: Not yet.
 p: Ще ні.
-
-# eede000f
-; p: Is noone here!
-p: Тут нікого немає!

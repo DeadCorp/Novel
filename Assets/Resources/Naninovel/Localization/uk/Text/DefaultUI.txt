@@ -5,11 +5,11 @@ Confirmation.No: НІ
 Confirmation.Yes: ТАК
 ControlPanel.Auto: АВТО
 ControlPanel.Hide: СХОВАТИ
-ControlPanel.Load: ЗАВАНТАЖИТИ
+ControlPanel.Load: LOAD
 ControlPanel.Log: ЛОГ
-ControlPanel.QuickLoad: ШВИД.ЗАВАНТАЖИТИ
-ControlPanel.QuickSave: ШВИД.ЗБЕРЕГТИ
-ControlPanel.Save: ЗБЕРЕГТИ
+ControlPanel.QuickLoad: Q.LOAD
+ControlPanel.QuickSave: Q.SAVE
+ControlPanel.Save: SAVE
 ControlPanel.Settings: НАЛАШТУВАННЯ
 ControlPanel.Skip: ПРОПУСК
 ControlPanel.Tips: ПІДСКАЗКИ
@@ -39,9 +39,9 @@ Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Тільки читання
 Naninovel.UI.GameStateSlot.EmptySlotLabel: Пусто
 Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Точно хочете видалити збереження?
 Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Точно хочете перезаписати збереження?
-SaveLoadMenu.Tab.Load: ЗАВАНТАЖИТИ
-SaveLoadMenu.Tab.QuickLoad: ШВИД.ЗАВАНТАЖИТИ
-SaveLoadMenu.Tab.Save: ЗБЕРЕГТИ
+SaveLoadMenu.Tab.Load: LOAD
+SaveLoadMenu.Tab.QuickLoad: Q. LOAD
+SaveLoadMenu.Tab.Save: SAVE
 SettingsMenu.AutoDelay: Авто затримка
 SettingsMenu.Font: Шрифт:
 SettingsMenu.FontSize: Розмір шрифта:

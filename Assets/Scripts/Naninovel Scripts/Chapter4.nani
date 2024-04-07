@@ -1,16 +1,18 @@
 @back Loc2.CircleReveal time:0.65
 
+@char p look:left pos:-35,7.5
+@char p look:left pos:35,7.5
+
 p: Hey, Josh, a you here?
 
 ; add sfx echo
 
 @wait 1.5
+@char p look:right pos:50,7.5
 
 p: Hmmm... Is no one here. I must visit Oliver, maybe Josh will be there.
 
 @set "game_chapter = 5"
-
-
 @showUI MapButtonUI
 
 @stop
