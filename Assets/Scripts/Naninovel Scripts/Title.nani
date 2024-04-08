@@ -1,4 +1,5 @@
 
+@bgm MainMenuTheme volume:0.25
 @back TitleBG time:0
 @spawn Rain wait:false
 @stop

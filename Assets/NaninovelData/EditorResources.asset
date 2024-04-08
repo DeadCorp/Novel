@@ -238,16 +238,19 @@ MonoBehaviour:
       guid: dc68765a7daf4034494c49612d6a704c
     - name: Loc1
       pathPrefix: Backgrounds/MainBackground
-      guid: f7cc00a4bfc4abf4eaa57393773a4797
+      guid: cc23b315f775d8541aa30042704019af
     - name: Loc2
       pathPrefix: Backgrounds/MainBackground
-      guid: 0706397dcddd417428712b7584f2cbd3
+      guid: 766a594eedaec8846a30a18e532ce193
     - name: Loc3
       pathPrefix: Backgrounds/MainBackground
-      guid: 28413ae1a97be034eb8813b75282585f
+      guid: 0706397dcddd417428712b7584f2cbd3
     - name: TitleBG
       pathPrefix: Backgrounds/MainBackground
       guid: 4a5d168a8c1f7f04a8d3157208be5774
+    - name: Map
+      pathPrefix: Backgrounds/MainBackground
+      guid: f7cc00a4bfc4abf4eaa57393773a4797
   - Id: Characters/0fd6fb94-5662-442a-b11f-b041928725a7
     Resources:
     - name: j
@@ -265,3 +268,23 @@ MonoBehaviour:
       guid: a66d8282e4de5db4f965f1471d0aa360
   - Id: CharacterAvatars
     Resources: []
+  - Id: Audio
+    Resources:
+    - name: MainTheme
+      pathPrefix: Audio
+      guid: 399a3dbdc18e2e249b48b9aa2b2fc831
+    - name: MainMenuTheme
+      pathPrefix: Audio
+      guid: 9f8902b42d2e30941a3fee20d59c0ef3
+    - name: echo2
+      pathPrefix: Audio
+      guid: 7cf607c8b50e7d34d855de4c3d0de594
+    - name: echo
+      pathPrefix: Audio
+      guid: f37e1716532756e4aa001fafb2292e47
+    - name: correctItem
+      pathPrefix: Audio
+      guid: 565a63fd6bd509e479068de4e5bb48be
+    - name: wrongItem
+      pathPrefix: Audio
+      guid: 9ae5aa0b25516e24bad64cac8d2f780e

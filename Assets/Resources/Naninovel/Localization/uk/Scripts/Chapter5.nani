@@ -20,17 +20,17 @@ j.Smile: Не може бути, у тебе вийшло. Молодець {Get
 ; o.Smile: Hey {GetName("p")}, remember who is the owner, return it to me now!.
 o.Smile: Гей, {GetName("p")}, згадай, хто тут власник, поверни мені його негайно!
 
-# a0bed0f2
-; @choice "Give duck to Oliver" goto:.o_item set:item_owner="o" do:"@purgeRollback"
-@choice " Віддати качку Оліверу" goto:.o_item set:item_owner="o" do:"@purgeRollback"
+# bf3ddb8a
+; @choice "Give duck to Oliver" goto:.o_item set:item_owner="o" do:@purgeRollback
+@choice " Віддати качку Оліверу" goto:.o_item set:item_owner="o" do:@purgeRollback
 
-# f7edb4c
-; @choice "Give duck to Josh" goto:.j_item set:item_owner="j" do:"@purgeRollback"
-@choice " Віддати качку Джошу" goto:.j_item set:item_owner="j" do:"@purgeRollback"
+# 60d050c4
+; @choice "Give duck to Josh" goto:.j_item set:item_owner="j" do:@purgeRollback
+@choice " Віддати качку Джошу" goto:.j_item set:item_owner="j" do:@purgeRollback
 
-# b1b6b898
-; @choice "Take duck by you self" goto:.p_item set:item_owner="p" do:"@purgeRollback"
-@choice " Взяти качку собі" goto:.p_item set:item_owner="p" do:"@purgeRollback"
+# e3d8d9ff
+; @choice "Take duck by you self" goto:.p_item set:item_owner="p" do:@purgeRollback
+@choice "Взяти качку собі" goto:.p_item set:item_owner="p" do:@purgeRollback
 
 # bee5c298
 ; o: Great work {GetName("p")}, you a nice man.

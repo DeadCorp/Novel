@@ -1,10 +1,10 @@
-@back Loc2.CircleReveal time:0.65
 
 @char p look:left pos:-35,7.5
 @char p look:left pos:35,7.5
 
 p: Hey, Josh, a you here?
 
+@sfx echo
 ; add sfx echo
 
 @wait 1.5

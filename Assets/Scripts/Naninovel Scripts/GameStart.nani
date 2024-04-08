@@ -1,5 +1,6 @@
 @back Intro time:0
 
+@bgm MainTheme volume:0.25
 Okey, you already arrive.
 Lets begin your story!
 
@@ -15,7 +16,7 @@ So you a <color=green>{GetName("p")}</color>
 @showUI MapButtonUI
 @showUI QuestLogUI
 
-Nice
+p: Nice
 
 @hidePrinter 
 @stop

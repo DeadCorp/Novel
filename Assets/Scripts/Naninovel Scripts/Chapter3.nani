@@ -1,4 +1,3 @@
-@back Loc3.CircleReveal time:0.65
 
 @showUI MapButtonUI
 
@@ -14,6 +13,7 @@
 # Duck
 @char p look:right pos:50,7.5
 
+@sfx correctItem
 p: Yee, here it is! Time return to Josh.
 
 @set "game_chapter = 4"
@@ -24,6 +24,7 @@ p: Yee, here it is! Time return to Josh.
 @char p look:right pos:50,7.5
 @spawn ShakeCharacter params:p,2
 
+@sfx wrongItem
 p: No, its not a duck...
 
 @goto .Search

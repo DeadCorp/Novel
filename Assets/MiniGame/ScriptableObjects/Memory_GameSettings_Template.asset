@@ -21,11 +21,11 @@ MonoBehaviour:
   _refillAtFoundPercentage: 100
   _cardAnimationSpeed: 1
   _cardBacks:
-  - {fileID: 21300000, guid: 6e67957017843e1499a76c88a21b7c4a, type: 3}
-  - {fileID: 21300000, guid: 25f10989898ba054ea766338224ee006, type: 3}
+  - {fileID: 21300000, guid: e099a7ee7490557429ab1dc281be400a, type: 3}
   _cardSprites:
-  - {fileID: 21300000, guid: 52c54bd0197eb78469810f98dccc0a55, type: 3}
-  - {fileID: 21300000, guid: ca48a748357a3164b872a737f8cac3d3, type: 3}
-  - {fileID: 21300000, guid: c7600dc57a4c1bb49b1f5e6e625abf1f, type: 3}
-  - {fileID: 21300000, guid: 3647b12baa22d50448ff02b0c6a1855b, type: 3}
-  - {fileID: 21300000, guid: fd75cdee2cf4e1d4da64175537d7b50b, type: 3}
+  - {fileID: 21300000, guid: 5095b14f4aa5ffd4cb95187d7a63fe1f, type: 3}
+  - {fileID: 21300000, guid: 0d09fd1ca50b4bf4e8330bf93ae16cc2, type: 3}
+  - {fileID: 21300000, guid: fe780f7de0229d14da0dd5ce54d5bb35, type: 3}
+  - {fileID: 21300000, guid: 738f0df5881e4114b8d102ed7cd63cb6, type: 3}
+  - {fileID: 21300000, guid: 3c2519a61420a804b834cd02e3c15d6c, type: 3}
+  - {fileID: 21300000, guid: a9fc9db7b6f22b04d87ded4e1cba51a3, type: 3}

@@ -99,10 +99,10 @@ MonoBehaviour:
       UseCharacterColor: 1
       NameColor: {r: 0.44705886, g: 0.8117648, b: 0.4666667, a: 1}
       MessageColor: {r: 0.4477572, g: 0.8113208, b: 0.4685715, a: 1}
-      HighlightWhenSpeaking: 0
-      HighlightCharacterCount: 0
-      SpeakingPose: 
-      NotSpeakingPose: 
+      HighlightWhenSpeaking: 1
+      HighlightCharacterCount: 2
+      SpeakingPose: Speak
+      NotSpeakingPose: DontSpeak
       PlaceOnTop: 1
       HighlightDuration: 0.35
       HighlightEasing: 1
@@ -110,7 +110,29 @@ MonoBehaviour:
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
       LinkedPrinter: 
-      Poses: []
+      Poses:
+      - name: Speak
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 1, g: 1, b: 1, a: 1}
+          lookDirection: 0
+        overriddenProperties:
+        - tintColor
+      - name: DontSpeak
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+          lookDirection: 0
+        overriddenProperties:
+        - tintColor
     - Implementation: Naninovel.LayeredCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -141,10 +163,10 @@ MonoBehaviour:
       UseCharacterColor: 1
       NameColor: {r: 0.8679245, g: 0.8664976, b: 0.35617658, a: 1}
       MessageColor: {r: 0.86666673, g: 0.86666673, b: 0.35686275, a: 1}
-      HighlightWhenSpeaking: 0
+      HighlightWhenSpeaking: 1
       HighlightCharacterCount: 0
-      SpeakingPose: 
-      NotSpeakingPose: 
+      SpeakingPose: Speak
+      NotSpeakingPose: DontSpeak
       PlaceOnTop: 1
       HighlightDuration: 0.35
       HighlightEasing: 1
@@ -152,7 +174,29 @@ MonoBehaviour:
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
       LinkedPrinter: 
-      Poses: []
+      Poses:
+      - name: Speak
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 1, g: 1, b: 1, a: 1}
+          lookDirection: 0
+        overriddenProperties:
+        - tintColor
+      - name: DontSpeak
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 0.5764706, g: 0.5764706, b: 0.5764706, a: 1}
+          lookDirection: 0
+        overriddenProperties:
+        - tintColor
     - Implementation: Naninovel.LayeredCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -183,10 +227,10 @@ MonoBehaviour:
       UseCharacterColor: 0
       NameColor: {r: 1, g: 1, b: 1, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
-      HighlightWhenSpeaking: 0
+      HighlightWhenSpeaking: 1
       HighlightCharacterCount: 0
-      SpeakingPose: 
-      NotSpeakingPose: 
+      SpeakingPose: Speak
+      NotSpeakingPose: DontSpeak
       PlaceOnTop: 1
       HighlightDuration: 0.35
       HighlightEasing: 1
@@ -194,7 +238,29 @@ MonoBehaviour:
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
       LinkedPrinter: 
-      Poses: []
+      Poses:
+      - name: Speak
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 1, g: 1, b: 1, a: 1}
+          lookDirection: 0
+        overriddenProperties:
+        - tintColor
+      - name: DontSpeak
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: 0, y: 0, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 0.5764706, g: 0.5764706, b: 0.5764706, a: 1}
+          lookDirection: 0
+        overriddenProperties:
+        - tintColor
   AvatarLoader:
     PathPrefix: CharacterAvatars
     ProviderTypes:

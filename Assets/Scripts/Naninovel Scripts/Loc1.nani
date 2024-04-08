@@ -1,3 +1,4 @@
+@back Loc1
 @if "game_chapter == 1"
 @goto Chapter1
 
@@ -20,6 +21,7 @@
 @char p look:right pos:50,7.5
 @spawn ShakeCharacter params:p,1
 
+@sfx echo2
 p: Is noone here!
 
 @stop
