@@ -8,7 +8,7 @@ using UnityEngine;
 [InitializeAtRuntime]
 public class NovelMiniGameService : IEngineService
 {
-    private readonly int miniGameMaxTime = 30;
+    private readonly int miniGameMaxTime = 60;
 
     public NovelMiniGameService()
     {

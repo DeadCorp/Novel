@@ -13,8 +13,10 @@ j: Wanna talk with me - you must play in Gwe**(<i>censored</i>) with me first!
 
 @purgeRollback
 @hidePrinter 
+@hideUI QuestLogUI
 @memory_minigame wait:true
 
+@showUI QuestLogUI
 @if win
 j.Stupid: O no, no, no. I am lost.
 @else
